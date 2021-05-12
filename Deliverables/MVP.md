@@ -5,7 +5,7 @@ I trained an sklearn Logistic Regression model trained on all features in my dat
 
 The model has high accuracy and precision (0.9772 and 0.8061, respectively), however, it has a low recall score.
 
-[all_feature_confusion_matrix](./Visualizations/confusion_matrix_all.png)
+[all_feature_confusion_matrix](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/confusion_matrix_all.png)
 
 ### Notes about the dataset:
 * there were significant numbers of NaN values
