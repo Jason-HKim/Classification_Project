@@ -4,6 +4,8 @@
 
 Sepsis is a severe, and potentially life threatening condition in which a person's blood becomes infected with bacteria, and the body reacts extremely, possibly leading to organ disfunction.
 
+If medical professionals were able to more accurately predict the occurrence of sepsis, they may be able to take stronger measures to appropriately prevent or treat patients at risk of developing sepsis.
+
 What factors can be used to predict if someone will develop sepsis?
 
 ### Data:
