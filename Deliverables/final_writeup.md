@@ -41,4 +41,4 @@ Tools:
 * RandomizedSearchCV - hyperparameter tuning
 
 ## Feature Importance:
-![feature_importances]()
+![feature_importances](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/feature_importances.png)
