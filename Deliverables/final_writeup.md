@@ -18,11 +18,18 @@ The data consists of measurements of a patient, six days prior to Sepsis testing
 
 The data itself is highly imbalanced, with only around 2% positive Sepsis rows, and 98% negative. To help mitigate the effects of this imbalance, I did some resampling, using Random Oversampling to get an even 50-50 ratio of data. This ratio may not be the most ideal, as it duplicates the same 2% of rows many times.
 
+Data Imbalance:
+![data-imbalance](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/class_imbalance.png)
+
+
 Furthermore, there is a significant number of null or missing data in the set. I am not sure if they are missing simply because some measurements are not always required across all patients, or if they have simply been lost. Therefore, for now, I've chosen to find a combination of columns and rows without nulls, to end with about 16,000 data points.
 
 In the future, I would like to use imputing methods to impute missing data, so the dataset can be larger to build a more robust model.
 
 ## Tools / Algorithms
+![roc-auc](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/ROC_AUC_Curves.png)
+
+
 Metrics: ROC-AUC and f-beta:
 1. Baseline Random Forest model AUC: 0.808
 2. Baseline Random Forest model F-Beta (b=2) score: 0.253
