@@ -29,11 +29,11 @@ Furthermore, I believed it was important to try out other resampling techniques.
 
 I also kept the Random Forest model, because it still had the highest F-Beta score, and after some hyperparameter tuning with RandomizedSearchCV, I was able to increase my F-beta (b=2) score to 0.7623, which is a signficant increase from the original 0.287 score.
 
-### Overall scores:
+### Tool / Algorithms after Median imputing and SMOTE resampling:
 Metrics: ROC-AUC and f-beta:
 1. Baseline Random Forest model AUC: 0.949
-2. Baseline Random Forest model F-Beta (b=2) score: 0.253
-3. Random Forest model F-Beta (b=2) score after some hyperparameter tuning: 0.287
+2. Baseline Random Forest model F-Beta (b=2) score: 0.753
+3. Random Forest model F-Beta (b=2) score after some hyperparameter tuning: 0.762
 
 ## Tools / Algorithms
 Metrics: ROC-AUC and f-beta:
@@ -53,7 +53,11 @@ Tools:
 * Matplotlib & Seaborn
 * RandomizedSearchCV - hyperparameter tuning
 
-![ROC-AUC imputed](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/ROC_AUC_imputed.png)
+## Model Comparison:
+![baseline_all_models](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/baseline_scores_imputed_smote.png)
+
+## ROC-AUC:
+![ROC-AUC-Curve](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/ROC_AUC_imputed.png)
 
 ## Feature Importance:
-![feature_importances]()
+![feature_importances](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/feature_importances_v2.png)
