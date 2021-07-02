@@ -53,5 +53,7 @@ Tools:
 * Matplotlib & Seaborn
 * RandomizedSearchCV - hyperparameter tuning
 
+![ROC-AUC imputed](https://github.com/Jason-HKim/Classification_Project/blob/master/Visualizations/ROC_AUC_imputed.png)
+
 ## Feature Importance:
 ![feature_importances]()
